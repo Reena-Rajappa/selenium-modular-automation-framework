@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="AutomationSuite">
+
+    <listeners>
+        <listener class-name="com.qaautomation.listeners.TestListener"/>
+    </listeners>
+
+    <test name="APITests">
+        <classes>
+            <class name="com.qaautomation.api.UserApiTest"/>
+        </classes>
+    </test>
+
+    <test name="UITests">
+        <packages>
+            <package name="com.qaautomation.tests"/>
+        </packages>
+    </test>
+
+</suite>
