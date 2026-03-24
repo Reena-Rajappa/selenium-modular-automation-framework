@@ -223,12 +223,24 @@ You can also run tests directly from **IntelliJ by executing the TestNG XML file
 * Locked user validation
 * Login with performance glitch user (slow response validation)
 
+### Cart Module
+
+* Add product to cart
+* Remove product from cart
+* Verify cart is empty when no product is added
+* Validate cart item count
+
+### Checkout Module
+
+* Complete end-to-end checkout flow
+* Validate product presence before checkout
+* Handle slow user during checkout process
+
 ### Error Handling
 
 * Invalid username/password message validation
 * User lock validation
 
----
 
 ## API Test Scenarios
 
@@ -263,7 +275,7 @@ screenshots/
 
 Failed test screenshots are automatically attached to the report.
 
-A sample failure test is included to demonstrate screenshot capture and reporting functionality.
+A sample failure test is included (disabled by default) to demonstrate screenshot capture and reporting functionality.
 
 ---
 ## Test Execution Outputs
